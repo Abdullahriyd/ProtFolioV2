@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    height: auto;
+    width: auto;
+}
+
+button.shape {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    background: linear-gradient(to right, #EC4C76, #EC4C7A);
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: transparent;
+    margin: 25px 5px 0px 5px;
+  
+}
+button.shape:hover {
+    background:linear-gradient(to right, #FF1800, #FF8E00);
+    cursor: pointer;
+    border: transparent;
+    transform: scale(1.10);
+}
+
+span{
+    
+    color: #FF8E00;
+    font-size: 38px;
+}
+span:hover{
+    color:  #f87408;
+}
+
+.hello-im{
+    background-image: url(image/header-bg.png);
+    background-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+   
+}
+
+.half-width{
+    width: 40%;
+    padding-left:2% ;
+    margin-left: 5%;
+
+}
+
+.half-width img {
+    width: 100%;
+}
+
+
+.pic1-padding{
+    padding-left: 4px;
+}
+
+
+
+.biography{
+    background-image: url(image/biography-bg.png);
+    background-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+   
+}
+
+.work-img{
+    width: 30%;
+    height: auto;
+    padding:1% ;
+}
+
+.latest-work-img{
+    background-image: url(image/latest-work-bg.png);
+    background-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+   
+}
+.latest-work {
+    text-align: center;
+    position: relative;
+    padding: 20px 10px;
+}
+.latest-work h3 {
+    padding-bottom: 20px;
+}
+
+.client{
+    background-image: url(image/header-bg.png);
+    background-size: 100%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+.client p {
+    line-height: normal;
+}
+
+.contact{
+    background-image:linear-gradient(to right, #ED4B71, #EC4E86);
+    border-radius: 20px;
+    padding: 4%;
+    margin: 1% 12% 1% 12% ;
+    color: #ffffff;
+    
+}
+
+.client-padd1{
+    padding: 30px 2px;
+}
+.client-padd2{
+    padding: 10px 2px;
+}
+.client-padd3{
+    padding: 5px 2px;
+}
+
+footer{
+    margin-top: 20px;
+    padding: 40px;
+    text-align: center;
+    font-weight: 100;
+    font-size: small;
+    background-image: url(image/footer-bg.png);
+    background-size: 100%;
+}
