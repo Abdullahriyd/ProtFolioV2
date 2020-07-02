@@ -8,10 +8,10 @@ body{
 
 button.shape {
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight:900;
     letter-spacing: 1px;
     color: white;
-    background: linear-gradient(to right, #EC4C76, #EC4C7A);
+    background: linear-gradient(to right, #FF8E00, #FF1800);
     padding: 8px 15px;
     border-radius: 5px;
     border: transparent;
@@ -53,7 +53,13 @@ span:hover{
     width: 100%;
 }
 
+.contentme{
+    margin-top: 8%;
+}
 
+h2{
+ font-size: 30px;
+}
 .pic1-padding{
     padding-left: 4px;
 }
