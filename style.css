@@ -6,7 +6,132 @@ body{
     width: auto;
 }
 
+h2{
+    font-size: 30px;
+   }
+
+/*section 1 Hello Im */
+
+.hello-im{
+    background-image: url(image/header-bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*section 2 Biography */
+
+.biography{
+    background-image: url(image/biography-bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* 1st & 2nd section's common style */
+
+.image-width{
+    display: flex;
+    align-items: center;
+}
+.half-width{
+    width: 40%;
+    padding:5%;
+    text-align: justify;
+}
+
+.half-width>img {
+    width: 100%;    
+}
+
+.contentme{
+    margin-top: 8%;
+}
+
+/*section 3 My latest work */
+
+.latest-work {
+    background-image: url(image/latest-work-bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.latest-work-img{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    padding: 2%;
+}
+
+.work-img{
+    width: 30%;
+    height: auto;
+    padding-left:3% ;
+}
+
+.work-img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+/*section 4 Client */
+
+.client{
+    background-image: url(image/header-bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.client p {
+    line-height: normal;
+    
+}
+
+.client-padd1{
+    padding: 30px 2px;
+}
+.client-padd2{
+    padding: 10px 2px;
+}
+.client-padd3{
+    padding: 5px 2px;
+}
+
+.contact{
+    height: auto;
+    width: auto;
+    background-image:linear-gradient(to right, #ED4B71, #EC4E86);
+    border-radius: 20px;
+    padding: 1%;
+    margin: 1% 25% 1% 25% ;
+    color: #ffffff;
+    line-height: 1px ;
+}
+
+/*section 5 footer */
+
+footer{
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: small;
+    background-image: url(image/footer-bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/* Common gratients*/
+
 button.shape {
+    height: auto;
+    width: auto;
     text-transform: uppercase;
     font-weight:900;
     letter-spacing: 1px;
@@ -16,8 +141,8 @@ button.shape {
     border-radius: 5px;
     border: transparent;
     margin: 25px 5px 0px 5px;
-  
-}
+  }
+
 button.shape:hover {
     background:linear-gradient(to right, #FF1800, #FF8E00);
     cursor: pointer;
@@ -32,109 +157,13 @@ span{
 }
 span:hover{
     color:  #f87408;
+    cursor: pointer;
 }
 
-.hello-im{
-    background-image: url(image/header-bg.png);
-    background-size: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: justify;
-   
-}
-
-.half-width{
-    width: 40%;
-    padding:5% ;
-
-}
-
-.half-width img {
-    width: 100%;
-}
-
-.contentme{
-    margin-top: 8%;
-}
-
-h2{
- font-size: 30px;
-}
-.pic1-padding{
-    padding-left: 4px;
-}
-
-
-
-.biography{
-    background-image: url(image/biography-bg.png);
-    background-size: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: justify;
-   
-}
-
-.work-img{
-    width: 30%;
-    height: auto;
-    padding:1% ;
-}
-
-.latest-work-img{
-    background-image: url(image/latest-work-bg.png);
-    background-size: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-   
-}
-.latest-work {
-    text-align: center;
-    position: relative;
-    padding: 20px 10px;
-}
-.latest-work h3 {
-    padding-bottom: 20px;
-}
-
-.client{
-    background-image: url(image/header-bg.png);
-    background-size: 100%;
-    background-size: auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    
-}
-.client p {
-    line-height: normal;
-}
-
-.contact{
-    background-image:linear-gradient(to right, #ED4B71, #EC4E86);
-    border-radius: 20px;
-    padding: 4%;
-    margin: 1% 12% 1% 12% ;
-    color: #ffffff;
-    
-}
-
-.client-padd1{
-    padding: 30px 2px;
-}
-.client-padd2{
-    padding: 10px 2px;
-}
-.client-padd3{
-    padding: 5px 2px;
-}
-
-footer{
-    margin-top: 20px;
-    padding: 40px;
-    text-align: center;
-    font-weight: 100;
-    font-size: small;
-    background-image: url(image/footer-bg.png);
-    background-size: 100%;
+.contact:hover{
+    background:linear-gradient(to right, #FF1800, #FF8E00);
+    color:  #ffffff;
+    cursor: pointer;
+    transform: scale(1.1);
+    font-weight: 700;
 }
