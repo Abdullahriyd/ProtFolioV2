@@ -65,13 +65,14 @@ h2{
     display: flex;
     flex-wrap: wrap;
     margin-top: 5%;
-    padding: 2%;
+    padding:1%;
+    border: 1px red solid;
 }
 
 .work-img{
     width: 30%;
     height: auto;
-    padding-left:3% ;
+    padding-left:2% ;
 }
 
 .work-img:hover{
@@ -109,7 +110,7 @@ h2{
     background-image:linear-gradient(to right, #ED4B71, #EC4E86);
     border-radius: 20px;
     padding: 1%;
-    margin: 1% 25% 1% 25% ;
+    margin: 1% 15% 1% 15% ;
     color: #ffffff;
     line-height: 1px ;
 }
@@ -164,6 +165,6 @@ span:hover{
     background:linear-gradient(to right, #FF1800, #FF8E00);
     color:  #ffffff;
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.01);
     font-weight: 700;
 }
