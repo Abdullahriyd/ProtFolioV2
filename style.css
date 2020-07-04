@@ -89,7 +89,6 @@ h2{
     text-align: center;
     display: flex;
     flex-flow: column;
-    align-items: center;
 }
 .client p {
     line-height: normal;
@@ -112,7 +111,7 @@ h2{
     background-image:linear-gradient(to right, #ED4B71, #EC4E86);
     border-radius: 20px;
     padding: 1%;
-    margin: 1% 14% 1% 14% ;
+    margin: 1% 10% 1% 10% ;
     color: #ffffff;
     line-height: 1px ;
 }
@@ -130,7 +129,6 @@ footer{
     background-repeat: no-repeat;
     display: flex;
     flex-flow: column;
-    align-items: center;
 }
 
 /* Common gratients*/
